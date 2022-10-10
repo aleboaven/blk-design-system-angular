@@ -112,6 +112,10 @@
   &.bg-danger {
     background-color: $danger !important;
   }
+  
+  &.bg-reds{
+    background-color: $reds-states !important;
+  }
 
   .navbar-brand {
     position: relative;
