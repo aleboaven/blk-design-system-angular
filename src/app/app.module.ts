@@ -22,10 +22,15 @@ import { PagesModule } from "./pages/pages.module";
 import { IndexComponent } from "./pages/index/index.component";
 import { ProfilepageComponent } from "./pages/examples/profilepage/profilepage.component";
 import { RegisterpageComponent } from "./pages/examples/registerpage/registerpage.component";
-import { LandingpageComponent } from "./pages/examples/landingpage/landingpage.component";
+import { LandingpageComponent } from "./pages/examples/landingpage/landingpage.component"; 
+import { PrincipalComponent } from "./pages/paginas/principal/principal.component";
+import { ContatoComponent } from "./pages/paginas/contato/contato.component";
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    // PrincipalComponent,
+    // ContatoComponent,
     // IndexComponent,
     // ProfilepageComponent,
     // RegisterpageComponent,
