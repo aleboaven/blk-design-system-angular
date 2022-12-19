@@ -27,6 +27,13 @@
       height: 300px;
     }
   }
+
+.principal-page {
+  .content-center {
+    img {
+      height: 300px;
+    }
+  }
 }
 
 .header-filter {
@@ -92,4 +99,5 @@
 }
 .wrapper .navbar {
   z-index: 2;
+}
 }

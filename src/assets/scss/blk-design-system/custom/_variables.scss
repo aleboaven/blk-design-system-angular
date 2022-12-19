@@ -147,6 +147,7 @@ $reds-states: #EA384D !default;
 $background-black: #171941 !default;
 $background-states-black: #1e1e24 !default;
 $background-states-black-lighter: #3e3e48 !default;
+$reds-linear-gradient: linear-gradient(to bottom left,#fd5d93,#ec250d,#fd5d93)!default;
 
 // opacity
 $default-opacity: rgba(182, 182, 182, 0.6) !default;
@@ -937,6 +938,7 @@ $card-inner-border-radius: calc(#{$card-border-radius} - #{$card-border-width});
 $card-cap-bg: $gray-100 !default;
 $card-bg: $white !default;
 $card-black-background: #1f2251 !default;
+$card-black-grey: #29292f !default;
 $card-img-overlay-padding: 1.25rem !default;
 
 //$card-group-margin:                 ($grid-gutter-width / 2);
