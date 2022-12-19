@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: "home", component: IndexComponent },
   { path: "profile", component: ProfilepageComponent },
   { path: "register", component: RegisterpageComponent },
-  { path: "landing", component: LandingpageComponent }
+  { path: "landing", component: LandingpageComponent },
 ];
 
 @NgModule({

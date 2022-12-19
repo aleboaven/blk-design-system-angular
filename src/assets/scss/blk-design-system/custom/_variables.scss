@@ -146,6 +146,7 @@ $reds-states: #EA384D !default;
 
 $background-black: #171941 !default;
 $background-states-black: #1e1e24 !default;
+$background-states-black-lighter: #3e3e48 !default;
 
 // opacity
 $default-opacity: rgba(182, 182, 182, 0.6) !default;
@@ -265,7 +266,7 @@ $love-color: $red !default;
 
 // Body
 
-$body-bg: $background-black !default;
+$body-bg: $background-states-black !default;
 $body-color: $gray-700 !default;
 
 // Sections
