@@ -24,6 +24,7 @@ import { ProfilepageComponent } from "./pages/examples/profilepage/profilepage.c
 import { RegisterpageComponent } from "./pages/examples/registerpage/registerpage.component";
 import { LandingpageComponent } from "./pages/examples/landingpage/landingpage.component";
 import { PrincipalComponent } from "./pages/principal/principal.component";
+import { StarsComponent } from './pages/stars/stars.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { PrincipalComponent } from "./pages/principal/principal.component";
     // RegisterpageComponent,
     // LandingpageComponent,
     // PrincipalComponent,
+    // StarsComponent
   ],
   imports: [
     BrowserAnimationsModule,
