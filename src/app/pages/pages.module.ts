@@ -21,8 +21,7 @@ import { IndexComponent } from "./index/index.component";
 import { ProfilepageComponent } from "./examples/profilepage/profilepage.component";
 import { RegisterpageComponent } from "./examples/registerpage/registerpage.component";
 import { LandingpageComponent } from "./examples/landingpage/landingpage.component";
-import { PrincipalComponent } from './principal/principal.component';
-import { StarsComponent } from './stars/stars.component';
+import { StarsComponent } from './stars/stars-page.component';
 
 @NgModule({
   imports: [
@@ -48,7 +47,6 @@ import { StarsComponent } from './stars/stars.component';
     ProfilepageComponent,
     RegisterpageComponent,
     LandingpageComponent,
-    PrincipalComponent,
     StarsComponent
   ],
   exports: [

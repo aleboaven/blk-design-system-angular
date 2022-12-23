@@ -23,8 +23,7 @@ import { IndexComponent } from "./pages/index/index.component";
 import { ProfilepageComponent } from "./pages/examples/profilepage/profilepage.component";
 import { RegisterpageComponent } from "./pages/examples/registerpage/registerpage.component";
 import { LandingpageComponent } from "./pages/examples/landingpage/landingpage.component";
-import { PrincipalComponent } from "./pages/principal/principal.component";
-import { StarsComponent } from './pages/stars/stars.component';
+import { StarsComponent } from './pages/stars/stars-page.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +32,6 @@ import { StarsComponent } from './pages/stars/stars.component';
     // ProfilepageComponent,
     // RegisterpageComponent,
     // LandingpageComponent,
-    // PrincipalComponent,
     // StarsComponent
   ],
   imports: [
