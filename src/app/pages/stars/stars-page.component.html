@@ -6,8 +6,8 @@
   <div class="container">
     <div class="navbar-translate">
       <a
+      placement="bottom"
         class="navbar-brand"
-        placement="bottom"
         [routerLink]="['/stars']"
         target="_blank"
         tooltip="Projeto"
@@ -35,8 +35,8 @@
     >
       <div class="navbar-collapse-header">
         <div class="row">
-          <div class="col-6 collapse-brand"><a> Alexandre Boaventura• </a></div>
           <div class="col-6 collapse-close text-right">
+          <div class="col-6 collapse-brand"><a> Alexandre Boaventura• </a></div>
             <button
               aria-controls="navigation-index"
               aria-label="Toggle navigation"
@@ -110,11 +110,11 @@
             <i class="fa fa-cogs d-lg-none d-xl-none"> </i> Páginas
           </a>
           <div class="dropdown-menu dropdown-with-icons" *dropdownMenu>
-            <a class="dropdown-item" [routerLink]="['/principal']">
-              <i class="tim-icons icon-planet"> </i> Página principal
+            <a class="dropdown-item" [routerLink]="['/home']">
+              <i class="tim-icons icon-atom"> </i> Página home
             </a>
             <a class="dropdown-item" [routerLink]="['/stars']">
-              <i class="tim-icons icon-star"> </i> Página estrelas
+              <i class="tim-icons icon-planet"> </i> Página estrelas
             </a>
           </div>
         </li>
@@ -132,32 +132,37 @@
   </div>
 </nav>
 <div class="wrapper">
-    <div class="page-header-paper-kit section-dark-paperkit" style="background-image: url('assets/img/paper-kit/jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg')">
+    <div class="page-header-paper-kit section-dark-paperkit">
         <div class="filter-paperkit"></div>
         <div class="content-center">
             <div class="container">
-                <div>
-                    <video autoplay loop muted plays-inline class="shooting-star">
-                        <source src="../../../assets/img/paper-kit/SHOOTING-STARS-OVERLAY.mp4" type="video/mp4">
+              <div>
+                <video autoplay loop muted plays-inline class="shooting-star">
+                  <source src="../../../assets/img/paper-kit/SHOOTING-STARS-OVERLAY.mp4" type="video/mp4">
+               </video>
 
-                    </video>
-                    <div class="content-center brand">
-                        <img
-                        class="img-center img-fluid rounded-circle width"
+               <div class="content-center brand">
+                 <h1 class="presentation-title teste">Alexandre Boaventura•</h1>
+                 <div style ="margin-left: 450px;" class="squares square-profile shadow-lg">
+                 <img
+                        class="img-fluid rounded"
                         src="assets/img/Alexandre_Boaventura.png"
-                        width="165" height="165"
-                        />
-                        <h1 class="presentation-title">Alexandre Boaventura•</h1>
-                    </div>
+                        
+                        style="width: 280px;"
+                         />
+                  </div>
+                        
+                        
                 </div>
+              </div>
                 <!-- <div>
                     <div>
                       <div class="sky">
                         <div class="stars"></div>
                         <div class="stars2"></div>
                         <div class="stars3"></div>
+                        <div class="fog-low">
                         <div class="title-brand">
-                            <div class="fog-low">
                                 <img src="assets/img/paper-kit/fog-low.png" alt="">
                             </div>
                             <div class="fog-low right">
@@ -175,7 +180,7 @@
         <!-- <h6 class="category category-absolute">Designed and coded by -->
 
             <a href="https://www.creative-tim.com" target="_blank">
-                <img src="assets/img/paper-kit/apple-icon-76x76.png" width="25" height="25" class="creative-tim-logo">
+                <img src="assets/img/paper-kit/apple-icon-76x76.png" width="25" height="25" class="ab-logo">
             </a>
         </h6>
     </div>
@@ -190,3 +195,83 @@
         <div class="container">
         </div>
       </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3"><h1 class="title">Alexandre Boaventura•</h1></div>
+            <div class="col-md-3">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" [routerLink]="['/home']"> Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" [routerLink]="['/landing']"> Landing </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" [routerLink]="['/register']"> Register </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" [routerLink]="['/profile']"> Profile </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="https://creative-tim.com/contact-us?ref=blkdsa-footer">
+                    Contact Us
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://creative-tim.com/about-us?ref=blkdsa-footer">
+                    About Us
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://creative-tim.com/blog?ref=blkdsa-footer">
+                    Blog
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://opensource.org/licenses/MIT">
+                    License
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h3 class="title">Siga-me:</h3>
+              <div class="btn-wrapper profile">
+                <a
+                  class="btn btn-icon btn-neutral btn-round btn-simple mr-1"
+                  href="https://www.instagram.com/a.boaven/"
+                  target="_blank"
+                >
+                  <i class="fab fa-instagram"> </i>
+                </a>
+                <a
+                  class="btn btn-icon btn-neutral btn-round btn-simple mr-1"
+                  href="https://www.facebook.com/AlexandreBoaventura01"
+                  target="_blank"
+                >
+                  <i class="fab fa-facebook-square"> </i>
+                </a>
+                <a
+                  class="btn btn-icon btn-neutral btn-round btn-simple"
+                  href="https://www.linkedin.com/in/alexandre-boaventura-9a454a1a4/"
+                  target="_blank"
+                >
+                  <i class="fab fa-linkedin"> </i>
+                </a>
+                <a
+                  class="btn btn-icon btn-neutral btn-round btn-simple"
+                  href="https://github.com/aleboaven"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"> </i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>

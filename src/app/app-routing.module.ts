@@ -10,7 +10,7 @@ import { LandingpageComponent } from "./pages/examples/landingpage/landingpage.c
 import { StarsComponent } from "./pages/stars/stars-page.component";
 
 const routes: Routes = [
-  { path: "", redirectTo: "home", pathMatch: "full" },
+  { path: "", redirectTo: "stars", pathMatch: "full" },
   { path: "home", component: IndexComponent },
   { path: "profile", component: ProfilepageComponent },
   { path: "register", component: RegisterpageComponent },

@@ -1,5 +1,6 @@
 // style for the landing page
-.index-page {
+.index-page,
+.stars-page {
   .page-header {
     height: 100vh;
 
@@ -71,12 +72,21 @@
       right: 27%;
       top: 70%;
     }
+    &.square-profile {
+      animation: move-left-right 8s infinite;
+      height: 250px;
+      width: 250px;
+      opacity: 1;
+      left: 32%;
+      bottom: 29%;
+      object-fit: fill;
+    }
 
     &.square5 {
       animation: move-left-right 6s infinite;
       height: 250px;
       width: 250px;
-      opacity: 0.1;
+      opacity: 0.5;
       left: 32%;
       bottom: 29%;
     }
@@ -532,6 +542,14 @@
   }
 
   .square-7 {
+    height: 200px;
+    width: 200px;
+    background-image: url("/assets/img/square5.png");
+    left: -100px;
+    top: 100px;
+    opacity: 0.4;
+  }
+  .square-profile {
     height: 200px;
     width: 200px;
     background-image: url("/assets/img/square5.png");

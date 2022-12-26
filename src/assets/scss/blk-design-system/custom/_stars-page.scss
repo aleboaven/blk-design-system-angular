@@ -156,6 +156,7 @@
   font-weight: 700;
   -webkit-font-smoothing: antialiased;
   margin: 0;
+  width: 60%;
   color: #FFFFFF;
   margin-bottom: 5%;
   font-family: Arial, sans-serif !important;
@@ -168,6 +169,10 @@
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.teste{
+  margin-top: 10%;
 }
 
 .presentation-subtitle{
@@ -185,7 +190,7 @@
   width: 100%;
   color: rgba(255, 255, 255, 0.5);
 
-  .creative-tim-logo {
+  .ab-logo {
       max-width: 140px;
       top: -2px;
       left: 3px;
