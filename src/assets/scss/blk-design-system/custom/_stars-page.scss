@@ -56,13 +56,16 @@
               z-index: 1;
           }
       }
+      &.img-object-fit{
+        object-fit: fill;
+      }
   }
 
 
   .squares {
     animation: move-left-right 1s infinite;
     @include linear-gradient($primary-states, $primary);
-    position: absolute;
+    position: unset;
     transition: 0.5s ease-out;
     overflow: hidden;
     border-radius: 20%;
@@ -156,7 +159,7 @@
   font-weight: 700;
   -webkit-font-smoothing: antialiased;
   margin: 0;
-  width: 60%;
+  width: 100%;
   color: #FFFFFF;
   margin-bottom: 5%;
   font-family: Arial, sans-serif !important;
@@ -171,7 +174,18 @@
   -webkit-text-fill-color: transparent;
 }
 
-.teste{
+.tst{
+  width: 60%;
+}
+
+.trtr{
+  position: absolute;
+  height: 50%;
+  margin-top: 2%;
+  margin-left: 20%;
+}
+
+.presentation-title-margin{
   margin-top: 10%;
 }
 

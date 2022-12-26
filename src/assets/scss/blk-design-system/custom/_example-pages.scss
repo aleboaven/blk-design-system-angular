@@ -33,7 +33,7 @@
   .squares {
     animation: move-left-right 1s infinite;
     @include linear-gradient($primary-states, $primary);
-    position: absolute;
+    position: fixed;
     transition: 0.5s ease-out;
     overflow: hidden;
     border-radius: 20%;
@@ -79,7 +79,6 @@
       opacity: 1;
       left: 32%;
       bottom: 29%;
-      object-fit: fill;
     }
 
     &.square5 {
