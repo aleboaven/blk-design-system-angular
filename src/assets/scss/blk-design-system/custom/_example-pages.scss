@@ -1,6 +1,5 @@
 // style for the landing page
-.index-page,
-.stars-page {
+.index-page {
   .page-header {
     height: 100vh;
 
@@ -72,15 +71,7 @@
       right: 27%;
       top: 70%;
     }
-    &.square-profile {
-      animation: move-left-right 8s infinite;
-      height: 250px;
-      width: 250px;
-      opacity: 1;
-      left: 32%;
-      bottom: 29%;
-    }
-
+    
     &.square5 {
       animation: move-left-right 6s infinite;
       height: 250px;

@@ -61,11 +61,28 @@
       }
   }
 
+  .squares-main{
+    animation: move-left-right 1s infinite;
+    @include linear-gradient($primary-states, $primary);
+    position: unset;
+    transition: 0.5s ease-out;
+    overflow: hidden;
+    border-radius: 20%;
+    &.square-profile {
+      animation: move-left-right 8s infinite;
+      height: 250px;
+      width: 250px;
+      opacity: 1;
+      left: 32%;
+      bottom: 29%;
+    }
+  }
+
 
   .squares {
     animation: move-left-right 1s infinite;
     @include linear-gradient($primary-states, $primary);
-    position: unset;
+    position: absolute;
     transition: 0.5s ease-out;
     overflow: hidden;
     border-radius: 20%;
@@ -174,15 +191,8 @@
   -webkit-text-fill-color: transparent;
 }
 
-.tst{
+.main-attributes-container{
   width: 60%;
-}
-
-.trtr{
-  position: absolute;
-  height: 50%;
-  margin-top: 2%;
-  margin-left: 20%;
 }
 
 .presentation-title-margin{
