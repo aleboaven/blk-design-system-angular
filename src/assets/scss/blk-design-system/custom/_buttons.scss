@@ -122,6 +122,13 @@
 .btn-danger {
   @include btn-styles($danger, $danger-states);
 }
+.btn-main-content{
+  @include btn-styles($reds-states,$reds)
+}
+.btn-main-content-primary{
+  @include btn-styles($primary,$primary-states)
+}
+
 .btn-neutral {
   @include btn-styles($white, $white);
 }
